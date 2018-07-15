@@ -12,39 +12,87 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
+	<!-- <body class="is-preload" onLoad="slide('change-image',arr);" > -->
+	<body onLoad="slide('change-image',arr);" >
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
-				<h1 >
-					<a id="logo" href=".">YOUNG HO CHUN</a>
-				</h1>
 
+
+				<!-- Nav -->
+				 <nav id="nav">
+					 <h1 id="logo">
+	 					<a href="index.html">YOUNG HO CHUN</a>
+	 				</h1>
+					<a href="#work" >Work</a>
+					<a href="#contact" >Contact</a>
+				</nav>
+
+<!-- Main -->
+				<!-- </div> -->
+				<!-- Main -->
+				<div id="main">
 				<!-- One -->
-					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-						<div class="content">
-							<!-- <p class="major">A (modular, highly tweakable) responsive one-page template designed by <a href="https://html5up.net">HTML5 UP</a> and released for free under the <a href="https://html5up.net/license">Creative Commons</a>.</p>
-							<ul class="actions stacked">
-								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
-							</ul> -->
-						</div>
-						<div class="front-image">
-							<img src="images/front/magok.jpg" alt="" />
-						</div>
-					</section>
+					<article id="me" class="panel">
+					<!-- <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"> -->
+						<!-- <div class="content">
+						</div> -->
+						<section>
+							<div class="row front-image">
+								<img id="change-image" />
+							</div>
+						</section>
+				</article>
 
+					<!-- Work -->
+					<article id="work" class="panel">
 
+						<section>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<a href="#" class="image fit"><img src="images/front/01.jpeg" alt=""></a>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<a href="#" class="image fit"><img src="images/front/02.jpeg" alt=""></a>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<a href="#" class="image fit"><img src="images/front/03.jpeg" alt=""></a>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<a href="#" class="image fit"><img src="images/front/B08.jpg" alt=""></a>
+								</div>
+							</div>
+						</section>
+					</article>
+
+					<!-- Contact -->
+					<article id="contact" class="panel">
+						<section>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<a href="#" class="image fit"><img src="images/contact/photo.jpeg" alt=""></a>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<a href="#" class="image fit"><img src="images/contact/drone.jpeg" alt=""></a>
+								</div>
+							</div>
+							<p> I am Young Ho Chun, a photographer of architecture </p>
+							<p> abc.yuho@gmail.com </p>
+						</section>
+					</article>
+				</div>
 
 			</div>
 
-		<!-- Scripts -->
+			<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
+
 
 	</body>
 </html>
